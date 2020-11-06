@@ -1,5 +1,7 @@
 # video-gate
 
+A video paywall for independent content creators
+
 ## Build Setup
 
 ```bash
