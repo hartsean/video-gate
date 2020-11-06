@@ -1,8 +1,8 @@
 <template>
   <!--CustomLogo -->
   <svg version="1.0" xmlns="http://www.w3.org/2000/svg" class="NuxtLogo"
- width="1800.000000pt" height="996.000000pt" viewBox="0 0 60 55"
- preserveAspectRatio="xMidYMid meet">
+ viewBox="0 0 300 166"
+ preserveAspectRatio="true">
 <g transform="translate(0.000000,166.000000) scale(0.100000,-0.100000)"
 fill="#000000" stroke="none">
 <path d="M100 1645 c-7 -8 -8 -15 -2 -15 5 0 15 7 22 15 7 8 8 15 2 15 -5 0
@@ -350,13 +350,6 @@ c-21 -19 -33 -34 -26 -34 7 0 25 14 40 31 l26 32 23 -29 c13 -16 23 -33 23
 
 <style>
 .NuxtLogo {
-  position: absolute; 
- height: 100%; 
- width: 100%; 
- left: 0; 
- top: 0;
-  width: 100%;
-  height: auto;
   animation: 1s appear;
   margin: auto;
   transform: rotate(180deg);

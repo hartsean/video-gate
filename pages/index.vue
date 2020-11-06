@@ -1,35 +1,48 @@
 <template>
   <div class="container">
     <div>
-      <!-- <Logo /> -->
-      <div class="featured-video">
+      <Logo />
+      <Video />
+      <!-- <div class="featured-video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/IdWmulnsVQw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <Logo2 />
+      </div> -->
+      <!-- <Logo2 /> -->
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
+        <button
+          href="https://stripe.com"
           target="_blank"
           rel="noopener noreferrer"
           class="button--green"
+          v-on:click="buyVideo"
         >
           Watch Video
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
+        </button>
+        <button
+          href="https://spotify.com"
           target="_blank"
           rel="noopener noreferrer"
           class="button--grey"
         >
           Spotify
-        </a>
+        </button>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      show: false
+    }
+  },
+  methods: {
+    buyVideo() {
+      console.log('launch paypall')
+    }
+  }
+}
 </script>
 
 <style>
@@ -39,11 +52,6 @@ export default {}
   justify-content: center;
   align-items: center;
   text-align: center;
-  position: relative; 
-  height: 0; 
-  width: 100%; 
-  padding: 0;
-  padding-bottom: 100%; 
 }
 
 .title {
